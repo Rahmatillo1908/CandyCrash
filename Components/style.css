@@ -1,0 +1,41 @@
+.app {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.game {
+width:560px;
+height: 560px;
+display: flex;
+flex-wrap: wrap;
+}
+.game img {
+    width: 70px;
+    height: 70px;
+}
+.new {
+   
+}
+.app button {
+   padding: 15px 30px;
+   background: orange;
+   font-size: 20px;
+   font-weight: 700;
+   border-radius: 30px;
+   border: none;
+   outline: none;
+   transition: 0.3s;
+   border: 2px solid black;
+}
+.app button:hover {
+    background: transparent;
+    color: wheat;
+    transform: scale(1.1);
+}
+.score {
+    position: absolute;
+    top: 20px;
+    display: flex;
+    width: 300px;
+    right: 0px;
+}
